@@ -1,6 +1,7 @@
 # Es-Incrementa1000
 
 Il programma TestInc1000 incrementa di mille un contatore statico per ogni ogetto appartenente alla classe, e lo stampa in outuput. 
+
 Fase 1:
 Nella prima parte , il programma non eseguiva correttamente il proprio compito, poichè la classe Inc1000 è un thread, essa lavora in modo indipendente dal main e potrebbe darsi che il main può concludere prima e di conseguenza che stampa i risulatti prima che i due thread avessero finito.
 
